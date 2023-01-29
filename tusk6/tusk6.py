@@ -10,7 +10,7 @@ print('третье число: ', leftNumber3)
 sum1 = leftNumber1 + leftNumber2 + leftNumber3
 print('сумма первых трёх цифр левой половины шестизначного числа', number, 'равна: ', sum1)
 
-rightHalfNumber = int(number % 1000) # первое трёхзначное число
+rightHalfNumber = int(number % 1000) # второе трёхзначное число
 rightNumber1 = rightHalfNumber // 100          # первое число, второго трёхзначного числа
 rightNumber3 = rightHalfNumber % 10            # третье число, второго трёхзначного числа
 rightNumber2 = (rightHalfNumber % 100) // 10  # второе число, второого трёхзначного числа
